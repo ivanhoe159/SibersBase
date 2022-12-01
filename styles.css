@@ -1,0 +1,174 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: "Sylfaen", serif;
+}
+
+table {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-spacing: 100px 0px;
+}
+
+th,
+td {
+    font-family: "Sylfaen", serif;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px;
+}
+
+select,
+option {
+    font-family: "Sylfaen", serif;
+    font-size: 20px;
+}
+
+a {
+    color: #005da8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00bfff;
+}
+
+.header {                              /* Text headers style */
+    text-align: center;
+    font-family: "Sylfaen", serif;
+    font-size: 20px;
+}
+
+.f1 {                                   /* Different <input> styles for forms */
+    position: relative;
+    left: 50%;
+    font-size: 18px;
+    transform: translate(-50%, 0);
+}
+
+.f2 {
+    position: relative;
+    left: 30%;
+    margin: 0 auto;
+}
+
+.f3 {
+    position: relative;
+    left: 10%;
+    font-size: 15px;
+}
+
+.gender {                                /* Special for gender <select>  */
+    left: 20%;
+}
+
+.block {                                /* Formes and tables style */
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+    border: solid 3px black;
+    justify-content: center;
+}
+
+.table {                                /* Main table */
+    width: 55%;
+    height: 55%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.login {                                 /* Login form */
+    width: 30%;
+    height: 50%;
+}
+
+.hidden {                               /* "Add new user" and "Edit" forms */
+    display: none;
+    width: 30%;
+    height: 65%;
+    left: 33%;
+    top: 10%;
+    background-color: white;
+    z-index: 2;
+    border-radius: 20px;
+    position: fixed;
+}
+
+.flexer {                               /* <div> class for a different menus */
+    justify-content: center;
+    display: flex;
+    margin-top: -16px;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    justify-content: center;
+    display: flex;
+    padding: 0% 2%;
+}
+
+.button {                               /* <button> and <input type="submit"> class */
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+    border-radius: 12px;
+    font-family: "Sylfaen", serif;
+    font-size: 25px;
+    margin: 0 auto;
+    position: relative;
+    width: 150px;
+    height: 45px;
+    left: 50%;
+    transform: translate(-50%, 30%);
+}
+
+.button:hover {                         /* different hovers (standard, red, green) */
+    background-color: #6173b0;
+    color: white;
+    cursor: pointer;
+}
+
+.red:hover {
+    background-color: darkred;
+}
+
+.green:hover {
+    background-color: green;
+}
+
+.tab-button {                            /* class for "Edit" and "Delete" buttons */
+    width: 35px;
+    height: 35px;
+    margin-top: -25px;
+}
+
+.nav-button {                            /* class for pages navigation buttons */
+    width: 60px;
+}
+ 
+.nav-footer {                            /* pages navigation footer */
+    margin-top: 35px;
+}
+
+.warn {                                 /* warnings (wrong password, no login, etc) */
+    text-align: center;
+    color: darkred;
+}
+ 
+.page {                                /* footer style for pages' numbers */
+	font-size: 20px;
+	font-family: "Sylfaen", serif;
+	width: 30%;
+}
